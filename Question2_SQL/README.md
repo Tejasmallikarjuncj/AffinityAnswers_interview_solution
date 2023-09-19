@@ -16,9 +16,8 @@ the 9th page when there are 15 results per page.
 The answer for each questions is written below the question, where question are wriiten in comments.
 for instance.
 
--- a1. How many types of tigers can be found in the taxonomy table of the dataset? What is the 'ncbi_id' of the Sumatran Tiger?
-
 ``` SQL Query
+-- a1. How many types of tigers can be found in the taxonomy table of the dataset? What is the 'ncbi_id' of the Sumatran Tiger?
 SELECT COUNT(*) typ_Tigers
 FROM (
     SELECT tx.species
