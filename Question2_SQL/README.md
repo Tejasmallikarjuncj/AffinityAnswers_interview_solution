@@ -18,8 +18,10 @@ for instance.
 
 -- a1. How many types of tigers can be found in the taxonomy table of the dataset? What is the 'ncbi_id' of the Sumatran Tiger?
 
+``` SQL Query
 SELECT COUNT(*) typ_Tigers
 FROM (
     SELECT tx.species
     FROM taxonomy tx
     WHERE tx.species LIKE '%Panthera tigris%') sub; -- HERE species name of tiger is Panthera tigris
+```
