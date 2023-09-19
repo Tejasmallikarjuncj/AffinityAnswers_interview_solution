@@ -1,6 +1,6 @@
-The solution for sql questions are in the file rfam_query.sql
+##### The solution for sql questions are in the file rfam_query.sql
 
-There are four sub question.
+###### There are four sub question.
 
 a. How many types of tigers can be found in the taxonomy table of the dataset? What is the 'ncbi_id' of the Sumatran Tiger? 
 What is the 'ncbi_id' of the Sumatran Tiger?
